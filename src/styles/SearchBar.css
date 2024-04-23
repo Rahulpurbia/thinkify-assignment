@@ -1,0 +1,16 @@
+.wrapper {
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.wrapper>input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+}
